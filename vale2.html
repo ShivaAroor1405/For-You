@@ -7,27 +7,41 @@
     <style>
 
         body{
-            background-image: url(cele3.png);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+            background-image: url(a.gif);
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
+            background-attachment: fixed;
         }
-        .img1{
-            color: white;
-            animation-name: animation ;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            top: 40vh;
-            font-size: 40px;
+  
+       
+  
+        .img1 {
         }
+  
+        h1{
+          color: gold;
+          margin-top: 40vh;
+          text-align: center;
+          animation: animation 5s;
+        }
+  
         @keyframes animation {
-            from {color: red;}
-         to {color: yellow;}
+            from {
+              color: red;
+              transform: scale(0);
+            }
+         to {
+           color: gold;
+           transform: scale(1);
+         }
         }
     </style>
 </head>
 <body >
+  
     <div class="img1">
    <h1>I LOVE YOU</h1>
    </div>
